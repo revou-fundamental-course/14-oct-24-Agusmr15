@@ -9,7 +9,7 @@
 .logo-icon {
     height: 50px;
     width: 50px;
-    /* background image */
+    background-image:url(/assets/logo.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -24,4 +24,63 @@ nav>a {
     padding: 8px;
     text-decoration: none;
     color: black;
+}
+
+.photo-banner {
+    border: 1px solid;
+    height: 250px;
+    background-image: url(/assets/photo-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.article {
+    height: 300px;
+}
+
+.message-container {
+    display: flex;
+    width: 300px;
+}
+
+.message-container label {
+    margin-bottom: 5px;
+  }
+
+.message-container input[type="text"],
+.message-container input[type="date"],
+.message-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.message-container input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+.message-container button {
+    background-color: #ff4800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.info-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+footer>div {
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+    font-style: italic;
 }
