@@ -61,14 +61,7 @@ nav>a {
     margin-right: 5px;
   }
   
-.message-container button {
-    background-color: #ff4800;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+
   
 .info-container {
     width: 300px;
